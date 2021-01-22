@@ -1,0 +1,97 @@
+/********** Base styles **********/
+body {
+    margin: 15px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 115%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(26, 46, 46);
+    font-family: Papyrus;
+    font-weight: bold;
+    font-size: 175%;
+}
+
+p {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 133px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Papyrus;
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+#title1 {
+    background-color: #9ea4fa;
+    color: rgb(84, 21, 109);
+}
+
+#title2 {
+    background-color: #f8a1ed;
+    color: rgb(165, 38, 144);
+}
+
+#title3 {
+    background-color: #6ae69a;
+    color: rgb(36, 82, 57);
+}
+
+#textBox {
+    position: relative;
+    padding: 50px 10px 10px 10px;
+    border: 1px solid black;
+    margin: 1%;
+    background-color: rgb(128, 170, 170);
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+.col-lg-4 {
+    float: left;
+    width: 31.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 48%;
+  }
+  .col-md-12 {
+    width: 98%;
+  }
+}
+
+/********** Small devices only **********/
+
+@media (max-width: 767px) {
+.col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
